@@ -1,0 +1,139 @@
+.about-main {
+  background: url("/images/about-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  padding-bottom: 58px;
+}
+.about-main::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.about-content {
+  position: relative;
+  padding-top: 180px;
+  width: 100%;
+  font-family: Poppins;
+  display: flex;
+  justify-content: space-between;
+}
+.side-text {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+}
+.side-text-heading1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.side-text-paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+.side-text-paragraph2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.side-text-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.side-text-list {
+  font-size: 16px;
+  font-weight: 500;
+}
+.right-image {
+  width: 600px;
+  height: 70vh;
+  object-fit: cover;
+}
+.whyus-section {
+  width: 100%;
+  padding: 90px 0 180px 0;
+  background-color: black;
+}
+.whyus-heading {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(182, 182, 182);
+}
+.whyus-content {
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.whyus-heading2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #cda45e;
+}
+.cards-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  font-family: Poppins;
+  width: 400px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #211a1899;
+  height: 270px;
+  transition: 0.5s all linear;
+}
+.card:hover {
+  background-color: #cda45e;
+}
+.card:hover .card-number {
+  color: white;
+}
+.card:hover .card-number,
+.card-heading,
+.card-desc {
+  margin-top: -5px;
+}
+.card-number {
+  transition: 0.2s all linear;
+  color: #cda45e;
+  font-size: 30px;
+  font-weight: 600;
+}
+.card-heading {
+  font-size: 30px;
+  transition: 0.2s all linear;
+  font-weight: 500;
+}
+.card-desc {
+  transition: 0.2s all linear;
+  font-size: 15px;
+  font-weight: 400;
+}
+.chefs-content {
+  margin-top: 150px;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

@@ -1,0 +1,121 @@
+.events-main {
+  width: 100%;
+  height: auto;
+  background: url("/images/events-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.events-main::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.event-content {
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.event-heading {
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #f5f4f4;
+}
+.event-heading2 {
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #cda45e;
+}
+
+.events-cardsBox {
+  display: flex;
+  width: 100%;
+  gap: 80px;
+  margin-top: 60px;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+.event-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.event-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-title {
+  font-size: 30px;
+  color: #cda45e;
+  font-weight: 600;
+}
+.card-price {
+  font-family: Poppins;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: #cda45e;
+  font-weight: 600;
+}
+.card-ingre {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+}
+.card-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+}
+.card-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  font-family: 500;
+  font-family: Poppins;
+}
+.icon {
+  color: #cda45e;
+  font-size: 25px;
+}
+.card-desc {
+  font-size: 23px;
+  font-weight: 400;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.bullet-button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.bullet-button.active {
+  background-color: #cda45e;
+}
